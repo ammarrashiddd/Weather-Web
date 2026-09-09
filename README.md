@@ -60,16 +60,6 @@ npm run dev
 
 Buka [http://localhost:3000](http://localhost:3000).
 
-## Pengukuran Performa
-
-Untuk memvalidasi manfaat aplikasi, ukur:
-
-- Waktu hingga halaman dapat digunakan.
-- Waktu pencarian informasi cuaca.
-- Jumlah halaman atau langkah yang diperlukan pengguna.
-- Performa pada perangkat desktop dan mobile.
-- Tingkat keberhasilan pengguna menemukan informasi cuaca.
-
 ## Pengembangan
 
 Edit halaman utama pada:
