@@ -74,3 +74,12 @@ Perubahan akan ditampilkan otomatis selama development server berjalan.
 
 - [Dokumentasi Next.js](https://nextjs.org/docs)
 - [Learn Next.js](https://nextjs.org/learn)
+
+## Preview Aplikasi
+
+<p align="center">
+  <img width="3860" height="3658" alt="bekasi" src="https://github.com/user-attachments/assets/48362a99-4062-4729-9e9e-9a6d41042cf5" />
+</p>
+
+
+
