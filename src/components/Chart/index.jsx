@@ -18,7 +18,6 @@ export default function Chart({ api }) {
         cloud: item.cloud,
         heatindex: item.heatindex_c,
         dewpoint: item.dewpoint_c,
-
     }));
 
   return (

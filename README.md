@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Weather Web
 
-## Getting Started
+Aplikasi web untuk membantu pengguna mendapatkan informasi cuaca secara cepat dan mudah dipahami.
 
-First, run the development server:
+## Manfaat Utama
+
+### 1. Mengurangi waktu pencarian informasi cuaca
+
+Sebelum menggunakan aplikasi, pengguna perlu membuka beberapa halaman atau aplikasi untuk menemukan informasi cuaca. Weather Web menampilkan informasi cuaca dalam satu tampilan.
+
+| Kondisi                           |        Sebelum |                      Sesudah |
+| --------------------------------- | -------------: | ---------------------------: |
+| Waktu mendapatkan informasi cuaca |       ±3 menit |                    ±30 detik |
+| Jumlah halaman yang perlu dibuka  |    3–5 halaman |                    1 halaman |
+| Informasi cuaca yang tersedia     | Tidak terpusat | Terpusat dalam satu tampilan |
+
+### 2. Membantu pengguna mengambil keputusan harian
+
+Informasi suhu, kondisi cuaca, dan prakiraan membantu pengguna menentukan aktivitas seperti bepergian, bekerja, atau membawa perlengkapan tertentu.
+
+| Indikator                                |  Sebelum |      Sesudah |
+| ---------------------------------------- | -------: | -----------: |
+| Waktu memahami kondisi cuaca             | ±2 menit |     <1 menit |
+| Informasi yang harus dibandingkan manual | 3 sumber |     1 sumber |
+| Risiko lupa memeriksa cuaca              |   Tinggi | Lebih rendah |
+
+### 3. Menyediakan pengalaman yang responsif
+
+Aplikasi dirancang agar dapat digunakan melalui desktop maupun perangkat mobile. Tampilan yang responsif mengurangi kebutuhan memperbesar atau menggulir halaman secara berlebihan.
+
+| Indikator                |       Sebelum |            Sesudah |
+| ------------------------ | ------------: | -----------------: |
+| Perangkat yang didukung  |  Desktop saja | Desktop dan mobile |
+| Waktu memuat halaman     |      ±5 detik |    Target <2 detik |
+| Layout pada layar mobile | Tidak optimal |          Responsif |
+
+> Catatan: angka pada tabel di atas adalah baseline dan target dokumentasi. Ganti dengan hasil pengujian sebenarnya sebelum digunakan sebagai klaim produksi.
+
+## Teknologi
+
+- [Next.js](https://nextjs.org/)
+- React
+- TypeScript
+- CSS
+- Weather API
+
+## Menjalankan Project
+
+Instal dependensi:
+
+```bash
+npm install
+```
+
+Jalankan development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Buka [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Pengukuran Performa
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Untuk memvalidasi manfaat aplikasi, ukur:
 
-## Learn More
+- Waktu hingga halaman dapat digunakan.
+- Waktu pencarian informasi cuaca.
+- Jumlah halaman atau langkah yang diperlukan pengguna.
+- Performa pada perangkat desktop dan mobile.
+- Tingkat keberhasilan pengguna menemukan informasi cuaca.
 
-To learn more about Next.js, take a look at the following resources:
+## Pengembangan
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Edit halaman utama pada:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```text
+app/page.tsx
+```
 
-## Deploy on Vercel
+Perubahan akan ditampilkan otomatis selama development server berjalan.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Referensi
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Dokumentasi Next.js](https://nextjs.org/docs)
+- [Learn Next.js](https://nextjs.org/learn)
